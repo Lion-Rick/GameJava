@@ -217,7 +217,7 @@ public class GameView extends SurfaceView implements Runnable {
 
         try {
             Thread.sleep(3000);
-            activity.startActivity(new Intent(activity, TestGameActivity.class));
+            activity.startActivity(new Intent(activity, MainActivity.class));
             activity.finish();
         } catch (InterruptedException e) {
             e.printStackTrace();
